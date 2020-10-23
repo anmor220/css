@@ -1,0 +1,105 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+/*-----------------------------*/
+
+body{
+    padding: 30px;
+    background-color: lavender;
+}
+
+.block{
+    margin: 0 0 30px 0;
+}
+.list li{
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+.list1{
+    text-decoration: line-through;
+}
+.list1:hover{
+    text-decoration: none;
+}
+.list2{
+    font-weight: 700;
+}
+.list2:hover{
+    font-weight: 100;
+    color: red;
+}
+.list3{
+    font-style: italic;
+}
+.list3:hover{
+    font-style: normal;
+}
+.list4{
+    text-transform: uppercase;
+}
+.list4:hover{
+    text-transform: none;
+}
+.textbutton{
+    border-radius: 50px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(128, 165, 187);
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px  rgb(128, 165, 187.0,1);
+}
+.textbutton:hover{
+    background-color: rgb(71, 85, 148);
+    box-shadow: 0 0 10px  rgb(71, 85, 148.0,1);
+}
+.textbutton:active{
+    background-color: rgb(52, 54, 61);
+    box-shadow: none;
+}
+.textinput{
+    border: 1px solid #666;
+    height: 30px;
+    width: 200px;
+}
+.textinput:focus{
+    box-shadow: 0 0 10px rgb(173, 255, 255.0,1);
+    border: 1px solid  rgb(111, 173, 173);
+}
