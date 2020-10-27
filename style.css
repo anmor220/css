@@ -37,9 +37,10 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /*-----------------------------*/
 
+
 body{
     padding: 30px;
-    background-color: lavender;
+    background-color: rgb(212, 212, 233);
 }
 
 .block{
